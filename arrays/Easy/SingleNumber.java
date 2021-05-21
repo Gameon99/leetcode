@@ -13,3 +13,10 @@ class Solution {
         return it.next();
     }
 }
+
+//Using XOR - bit manipulation
+int x = 0;
+for(int n : nums){
+   x = x ^ n;
+}
+return x;
